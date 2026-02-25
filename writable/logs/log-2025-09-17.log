@@ -1,0 +1,194 @@
+CRITICAL - 2025-09-17 22:11:58 --> ErrorException: Undefined variable $pagname
+[Method: GET, Route: panel]
+in APPPATH\Views\inicio.php on line 6.
+ 1 APPPATH\Views\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagname', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Panel.php(25): view('inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Panel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:13:07 --> ErrorException: Undefined variable $pagname
+[Method: GET, Route: panel]
+in APPPATH\Views\inicio.php on line 6.
+ 1 APPPATH\Views\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagname', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Panel.php(25): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Panel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:13:09 --> ErrorException: Undefined variable $pagname
+[Method: GET, Route: panel]
+in APPPATH\Views\inicio.php on line 6.
+ 1 APPPATH\Views\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagname', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Panel.php(25): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Panel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:14:09 --> ErrorException: Undefined variable $pagname
+[Method: GET, Route: panel]
+in APPPATH\Views\inicio.php on line 6.
+ 1 APPPATH\Views\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagname', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Panel.php(26): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Panel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:14:11 --> ErrorException: Undefined variable $pagname
+[Method: GET, Route: panel]
+in APPPATH\Views\inicio.php on line 6.
+ 1 APPPATH\Views\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pagname', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('inicio', [], true)
+ 5 APPPATH\Controllers\Panel.php(26): view('inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Panel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:42:06 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: proveedores]
+in APPPATH\Views\contenido.php on line 4.
+ 1 APPPATH\Views\contenido.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Proveedores.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:46:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "listarprovedores.php"
+[Method: GET, Route: proveedores]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarprovedores.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('listarprovedores', [], true)
+ 3 APPPATH\Controllers\Proveedores.php(28): view('listarprovedores', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedores->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 22:47:09 --> ErrorException: Undefined array key "denominacion"
+[Method: GET, Route: proveedores]
+in APPPATH\Views\listarproveedores.php on line 3.
+ 1 APPPATH\Views\listarproveedores.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "denominacion"', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\listarproveedores.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\listarproveedores.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('listarproveedores', [], true)
+ 5 APPPATH\Controllers\Proveedores.php(28): view('listarproveedores', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:34:26 --> ErrorException: Undefined variable $baseURL
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 8.
+ 1 APPPATH\Views\contenido.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:35:50 --> ErrorException: Undefined variable $baseURL
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 9.
+ 1 APPPATH\Views\contenido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $baseURL', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:36:59 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 9.
+ 1 APPPATH\Views\contenido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:37:07 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 9.
+ 1 APPPATH\Views\contenido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:37:18 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 9.
+ 1 APPPATH\Views\contenido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 23:37:22 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: clientes]
+in APPPATH\Views\contenido.php on line 9.
+ 1 APPPATH\Views\contenido.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Program Files\\XAMPP\\htdocs\\xampp\\CodeIgniter4\\app\\Views\\contenido.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contenido', [], true)
+ 5 APPPATH\Controllers\Clientes.php(28): view('contenido', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

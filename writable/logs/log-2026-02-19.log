@@ -1,0 +1,585 @@
+DEBUG - 2026-02-19 01:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:18:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 01:20:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "repuestos/listado.php"
+[Method: GET, Route: repuestos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('repuestos/listado.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/listado', [], true)
+ 3 APPPATH\Controllers\Repuestos.php(46): view('repuestos/listado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 01:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 01:21:42 --> ErrorException: Undefined variable $socios
+[Method: GET, Route: repuestos]
+in APPPATH\Views\repuestos\listado.php on line 29.
+ 1 APPPATH\Views\repuestos\listado.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $socios', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php', 29)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/listado', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(46): view('repuestos/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 01:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 01:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 01:45:54 --> ErrorException: Undefined variable $proveedors
+[Method: GET, Route: repuestos/nuevo]
+in APPPATH\Views\repuestos\nuevo.php on line 13.
+ 1 APPPATH\Views\repuestos\nuevo.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedors', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\nuevo.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/nuevo', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(66): view('repuestos/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 01:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 01:46:08 --> ErrorException: Undefined array key "patente"
+[Method: GET, Route: repuestos/nuevo]
+in APPPATH\Views\repuestos\nuevo.php on line 14.
+ 1 APPPATH\Views\repuestos\nuevo.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patente"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\nuevo.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/nuevo', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(66): view('repuestos/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->nuevo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 01:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-02-19 11:04:13 --> [DEPRECATED] password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in APPPATH\Controllers\Repuestos.php on line 78.
+ 1 APPPATH\Controllers\Repuestos.php(78): password_hash(Object(SensitiveParameterValue), '2y')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:04:14 --> ErrorException: Undefined array key "Precio_costo"
+[Method: GET, Route: repuestos]
+in APPPATH\Views\repuestos\listado.php on line 32.
+ 1 APPPATH\Views\repuestos\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Precio_costo"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/listado', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(46): view('repuestos/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:06:55 --> ErrorException: Undefined variable $proveedors
+[Method: GET, Route: repuestos]
+in APPPATH\Views\repuestos\listado.php on line 32.
+ 1 APPPATH\Views\repuestos\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedors', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/listado', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(46): view('repuestos/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:07:03 --> ErrorException: Undefined variable $reparacionin
+[Method: GET, Route: repuestos]
+in APPPATH\Views\repuestos\listado.php on line 33.
+ 1 APPPATH\Views\repuestos\listado.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reparacionin', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/listado', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(46): view('repuestos/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:12:12 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:12:52 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:40:02 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:40:24 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:42:20 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:43:35 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(117): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 11:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:46:47 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:48:42 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 11:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 11:48:55 --> ErrorException: Undefined variable $r
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:27:16 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:28:24 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 1.
+ 1 APPPATH\Views\repuestos\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:28:34 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 1.
+ 1 APPPATH\Views\repuestos\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:29:04 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 1.
+ 1 APPPATH\Views\repuestos\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:29:10 --> ErrorException: Undefined variable $repuesto
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 1.
+ 1 APPPATH\Views\repuestos\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuesto', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:31:29 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 4.
+ 1 APPPATH\Views\repuestos\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:31:43 --> ErrorException: Undefined variable $proveedores
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 13.
+ 1 APPPATH\Views\repuestos\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(110): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:35:38 --> ErrorException: Undefined variable $socio
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 17.
+ 1 APPPATH\Views\repuestos\editar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $socio', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(112): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:36:07 --> ErrorException: Undefined array key "patente"
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 20.
+ 1 APPPATH\Views\repuestos\editar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "patente"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(112): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:36:45 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 20.
+ 1 APPPATH\Views\repuestos\editar.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(112): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 13:37:05 --> ErrorException: Undefined variable $repuestos
+[Method: GET, Route: repuestos/editar/1]
+in APPPATH\Views\repuestos\editar.php on line 26.
+ 1 APPPATH\Views\repuestos\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php', 26)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\repuestos\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('repuestos/editar', [], true)
+ 5 APPPATH\Controllers\Repuestos.php(112): view('repuestos/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Repuestos->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Repuestos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 13:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 13:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:30:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reparaciones_repuestos.php"
+[Method: GET, Route: reparaciones/repuestos/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reparaciones_repuestos.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones_repuestos', [], true)
+ 3 APPPATH\Controllers\Reparaciones.php(177): view('reparaciones_repuestos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:31:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reparaciones_repuestos.php"
+[Method: GET, Route: reparaciones/repuestos/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reparaciones_repuestos.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones_repuestos', [], true)
+ 3 APPPATH\Controllers\Reparaciones.php(177): view('reparaciones_repuestos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:32:02 --> ErrorException: Undefined variable $repuestoas
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones_repuestos\nuevo.php on line 6.
+ 1 APPPATH\Views\reparaciones_repuestos\nuevo.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $repuestoas', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones_repuestos\\nuevo.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones_repuestos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones_repuestos/nuevo.php', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(177): view('reparaciones_repuestos/nuevo.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:32:36 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones_repuestos\nuevo.php on line 8.
+ 1 APPPATH\Views\reparaciones_repuestos\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones_repuestos\\nuevo.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones_repuestos\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones_repuestos/nuevo.php', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(177): view('reparaciones_repuestos/nuevo.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:45:25 --> ErrorException: Undefined variable $autos
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones\nuevo.php on line 8.
+ 1 APPPATH\Views\reparaciones\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones/nuevo', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(187): view('reparaciones/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:47:41 --> ErrorException: Undefined variable $autos
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones\nuevo.php on line 8.
+ 1 APPPATH\Views\reparaciones\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones/nuevo', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(187): view('reparaciones/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:48:11 --> ErrorException: Undefined variable $autos
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones\nuevo.php on line 8.
+ 1 APPPATH\Views\reparaciones\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones/nuevo', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(183): view('reparaciones/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-19 17:51:56 --> ErrorException: Undefined variable $autos
+[Method: GET, Route: reparaciones/repuestos/1]
+in APPPATH\Views\reparaciones\nuevo.php on line 8.
+ 1 APPPATH\Views\reparaciones\nuevo.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $autos', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\reparaciones\\nuevo.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('reparaciones/nuevo', [], true)
+ 5 APPPATH\Controllers\Reparaciones.php(183): view('reparaciones/nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Reparaciones->repuestos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reparaciones))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-19 17:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-19 17:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

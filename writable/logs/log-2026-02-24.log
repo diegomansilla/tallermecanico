@@ -1,0 +1,552 @@
+DEBUG - 2026-02-24 00:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 00:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 01:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 01:55:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: GET, Route: facturas/confirmar_pago/1]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1031): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Facturas.php(201): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->confirmar_pago(null)
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 02:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 02:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 02:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 02:07:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: GET, Route: facturas/confirmar_pago/1]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1031): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Facturas.php(201): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->confirmar_pago('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 02:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 02:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 02:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 09:12:20 --> ErrorException: Undefined array key " estado_pago"
+[Method: GET, Route: facturas]
+in APPPATH\Views\facturas\listado.php on line 58.
+ 1 APPPATH\Views\facturas\listado.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " estado_pago"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\facturas\\listado.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\facturas\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('facturas/listado', [], true)
+ 5 APPPATH\Controllers\Facturas.php(65): view('facturas/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 09:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 09:15:13 --> ErrorException: Undefined array key " estado_pago"
+[Method: GET, Route: facturas]
+in APPPATH\Views\facturas\listado.php on line 58.
+ 1 APPPATH\Views\facturas\listado.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key " estado_pago"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\facturas\\listado.php', 58)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\facturas\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('facturas/listado', [], true)
+ 5 APPPATH\Controllers\Facturas.php(65): view('facturas/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 09:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 09:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 10:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 10:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 11:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 12:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 12:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 12:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 12:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 12:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 13:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 16:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 16:59:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "facturas/pdf.php"
+[Method: GET, Route: facturas/imprimir/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('facturas/pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('facturas/pdf', [], true)
+ 3 APPPATH\Controllers\Facturas.php(234): view('facturas/pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->imprimir('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 17:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 17:00:13 --> Error: Class "Dompdf\Dompdf" not found
+[Method: GET, Route: facturas/imprimir/1]
+in APPPATH\Controllers\Facturas.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Facturas->imprimir('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Facturas))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-02-24 17:11:15 --> ErrorException: require_once(C:\xampp\htdocs\proyecto_final\public\vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: facturas/imprimir/1]
+in APPPATH\Controllers\Facturas.php on line 4.
+ 1 APPPATH\Controllers\Facturas.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\proyecto_final\\public\\vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\Facturas.php', 4)
+ 2 APPPATH\Controllers\Facturas.php(4): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\Facturas.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\Facturas.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Facturas')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Facturas')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Facturas', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 17:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 17:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 19:38:57 --> ErrorException: require_once(C:\xampp\htdocs\proyecto_final\public\vendor/autoload.php): Failed to open stream: No such file or directory
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Controllers\MovimientosProveedores.php on line 5.
+ 1 APPPATH\Controllers\MovimientosProveedores.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:\\xampp\\htdocs\\proyecto_final\\public\\vendor/autoload.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\MovimientosProveedores.php', 5)
+ 2 APPPATH\Controllers\MovimientosProveedores.php(5): require_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\MovimientosProveedores.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\MovimientosProveedores.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MovimientosProveedores')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MovimientosProveedores')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\MovimientosProveedores', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 19:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 19:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 19:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 19:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 19:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 19:40:22 --> ErrorException: Undefined variable $mov
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Views\movimientos_proveedores\listado.php on line 55.
+ 1 APPPATH\Views\movimientos_proveedores\listado.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mov', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/listado', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(58): view('movimientos_proveedores/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 19:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 19:40:43 --> ErrorException: Undefined array key "estado_pago"
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Views\movimientos_proveedores\listado.php on line 55.
+ 1 APPPATH\Views\movimientos_proveedores\listado.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_pago"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/listado', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(58): view('movimientos_proveedores/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 19:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 19:43:02 --> ErrorException: Undefined array key "estado_pago"
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Views\movimientos_proveedores\listado.php on line 55.
+ 1 APPPATH\Views\movimientos_proveedores\listado.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "estado_pago"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/listado', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(58): view('movimientos_proveedores/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 19:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 19:43:18 --> ErrorException: Undefined variable $mov
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Views\movimientos_proveedores\listado.php on line 56.
+ 1 APPPATH\Views\movimientos_proveedores\listado.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mov', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php', 56)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/listado', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(58): view('movimientos_proveedores/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 19:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:10:42 --> ErrorException: Undefined array key 0
+[Method: GET, Route: proveedores/editar/5]
+in APPPATH\Views\proveedores\editar.php on line 1.
+ 1 APPPATH\Views\proveedores\editar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\proveedores\\editar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\proveedores\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('proveedores/editar', [], true)
+ 5 APPPATH\Controllers\Proveedores.php(95): view('proveedores/editar')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Proveedores->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:15:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientosproveedores/pagar.php"
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientosproveedores/pagar.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientosproveedores/pagar', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(166): view('movimientosproveedores/pagar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:19:14 --> ErrorException: Undefined variable $proveedores
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 1.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(166): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:27:09 --> ErrorException: Undefined variable $movimientosproveedor
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 6.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movimientosproveedor', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(166): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:28:09 --> ErrorException: Undefined variable $movimientosproveedores
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 3.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movimientosproveedores', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(166): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:29:40 --> ErrorException: Undefined variable $movimientosproveedores
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 3.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movimientosproveedores', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(166): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:36:21 --> ErrorException: Undefined variable $proveedor
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 3.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(170): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:37:07 --> ErrorException: Undefined variable $proveedor
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 3.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(172): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:37:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 3.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 3)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(172): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:39:13 --> ErrorException: Undefined array key "razon_social"
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Controllers\MovimientosProveedores.php on line 165.
+ 1 APPPATH\Controllers\MovimientosProveedores.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "razon_social"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Controllers\\MovimientosProveedores.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:42:54 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: movimientosproveedores/pagar/5]
+in APPPATH\Views\movimientos_proveedores\pagar.php on line 7.
+ 1 APPPATH\Views\movimientos_proveedores\pagar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\pagar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/pagar', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(172): view('movimientos_proveedores/pagar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->pagar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:51:47 --> ArgumentCountError: Too few arguments to function App\Controllers\MovimientosProveedores::confirmar_pago(), 0 passed in C:\xampp\htdocs\proyecto_final\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: movimientosproveedores/confirmar_pago]
+in APPPATH\Controllers\MovimientosProveedores.php on line 176.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->confirmar_pago()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 20:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 20:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 20:58:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: movimientosproveedores/confirmar_pago]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1031): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\MovimientosProveedores.php(183): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->confirmar_pago()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 21:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 21:02:20 --> ErrorException: Undefined variable $factura
+[Method: GET, Route: movimientosproveedores]
+in APPPATH\Views\movimientos_proveedores\listado.php on line 59.
+ 1 APPPATH\Views\movimientos_proveedores\listado.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $factura', 'C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php', 59)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\proyecto_final\\app\\Views\\movimientos_proveedores\\listado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/listado', [], true)
+ 5 APPPATH\Controllers\MovimientosProveedores.php(58): view('movimientos_proveedores/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 21:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 21:13:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientosproveedores/facturas_pdf.php"
+[Method: GET, Route: movimientosproveedores/imprimir/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientosproveedores/facturas_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientosproveedores/facturas_pdf', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(199): view('movimientosproveedores/facturas_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->imprimir('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 21:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 21:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 21:14:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientos_proveedores/facturas_pdf.php"
+[Method: GET, Route: movimientosproveedores/imprimir/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientos_proveedores/facturas_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientos_proveedores/facturas_pdf', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(199): view('movimientos_proveedores/facturas_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->imprimir('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 21:14:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 21:14:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientosproveedores/facturas_pdf.php"
+[Method: GET, Route: movimientosproveedores/imprimir/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientosproveedores/facturas_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientosproveedores/facturas_pdf', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(199): view('movimientosproveedores/facturas_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->imprimir('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 23:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 23:29:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientosproveedores/facturas_pdf.php"
+[Method: GET, Route: movimientosproveedores/imprimir/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientosproveedores/facturas_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientosproveedores/facturas_pdf', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(199): view('movimientosproveedores/facturas_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->imprimir('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-02-24 23:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 23:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 23:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 23:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 23:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-02-24 23:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-02-24 23:30:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "movimientosproveedores/facturas_pdf.php"
+[Method: GET, Route: movimientosproveedores/imprimir/5]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('movimientosproveedores/facturas_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('movimientosproveedores/facturas_pdf', [], true)
+ 3 APPPATH\Controllers\MovimientosProveedores.php(199): view('movimientosproveedores/facturas_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\MovimientosProveedores->imprimir('5')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MovimientosProveedores))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

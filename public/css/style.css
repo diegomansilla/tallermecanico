@@ -1,0 +1,32 @@
+.bg-gradient-primary {
+    background-color: #3c76bd !important;
+    background-image: none !important;
+}
+
+.navbar {
+    background-color: #7d8288 !important;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #7d8288 !important;
+}
+
+.text-primary {
+    color: #fff !important;
+}
+
+.card {
+    background-color: #7d8288 !important;
+}
+
+.justify-content-between {
+    justify-content: center !important;
+}
+
+.text-custom {
+    color: #ffffffcc !important;
+}
+
+.bg-primary {
+    background-color: #7d8288 !important;
+}
